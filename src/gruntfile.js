@@ -33,7 +33,9 @@ module.exports = function (grunt) {
             }
         }
     });
+    var cwd = process.cwd();
+    process.chdir("../");
     grunt.loadNpmTasks('grunt-responsive-images');
-
+    process.chdir(cwd);
     grunt.registerTask('default', ['responsive_images']);
 };
