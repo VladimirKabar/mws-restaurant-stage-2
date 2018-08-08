@@ -2,10 +2,22 @@
     "short_name": "reviews",
     "name": "Restaurants review",
     "scope": "/",
+    "icons": [
+        {
+            "src": "restaurant-icon.png",
+            "type": "img/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "restaurant-icon.png",
+            "type": "img/png",
+            "sizes": "512x512"
+        }
+    ],
     "display": "standalone",
     "start_url": "/",
-    "background_color": "#f3f3f3b6",
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff",
     "lang": "en-US",
     "orientation": "portrait"
 }
-
