@@ -1,0 +1,11 @@
+{
+    "short_name": "reviews",
+    "name": "Restaurants review",
+    "scope": "/",
+    "display": "standalone",
+    "start_url": "/",
+    "background_color": "#f3f3f3b6",
+    "lang": "en-US",
+    "orientation": "portrait"
+}
+
