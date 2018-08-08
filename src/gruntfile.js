@@ -7,20 +7,20 @@ module.exports = function (grunt) {
                     sizes: [{
                         name: 'large',
                         rename: false,
-                        width: 800,
-                        quality: 50
+                        width: 750,
+                        quality: 25
                     },
                     {
                         name: 'medium',
                         rename: false,
                         width: 500,
-                        quality: 50
+                        quality: 25
 
                     }, {
                         name: 'small',
                         rename: false,
                         width: 250,
-                        quality: 50
+                        quality: 25
                     }
                     ]
                 },
