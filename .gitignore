@@ -117,7 +117,9 @@ nbproject
 .idea
 .node_history
 vscode
+.vscode
 .editconfig
+editconfig
 # src/js/main.js
 # src/js/restaurant_info.js
 # src/js/idb.js
