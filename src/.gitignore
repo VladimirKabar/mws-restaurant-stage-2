@@ -1,9 +1,9 @@
-css/styles.css
-restaurant.html
+# css/styles.css
+# restaurant.html
 node_modules/**
-js/main.js
-js/restaurant_info.js
-js/dbhelper.js
+# js/main.js
+# js/restaurant_info.js
+# js/dbhelper.js
 img/large/**
 img/medium/**
 img/small/**
