@@ -348,7 +348,7 @@ nav h1 a {
 
 @media (min-width: 1281px) {
   body {
-      /* width: 90vw; */
+      width: 90vw;
   }
 } 
 

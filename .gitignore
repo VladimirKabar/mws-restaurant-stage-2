@@ -118,8 +118,8 @@ nbproject
 .node_history
 vscode
 .vscode
-.editconfig
-editconfig
+.editorconfig
+editorconfig
 src/node_modules/**
 src/img/large/**
 src/img/medium/**
