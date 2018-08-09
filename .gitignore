@@ -117,6 +117,7 @@ nbproject
 .idea
 .node_history
 vscode
+.editconfig
 # src/js/main.js
 # src/js/restaurant_info.js
 # src/js/idb.js
@@ -124,7 +125,6 @@ vscode
 # src/css/styles.css
 # src/restaurant.html
 src/node_modules/**
-
 src/img/large/**
 src/img/medium/**
 src/img/small/**
