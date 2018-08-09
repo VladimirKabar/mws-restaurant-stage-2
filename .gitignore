@@ -120,12 +120,6 @@ vscode
 .vscode
 .editconfig
 editconfig
-# src/js/main.js
-# src/js/restaurant_info.js
-# src/js/idb.js
-# src/js/dbhelper.js
-# src/css/styles.css
-# src/restaurant.html
 src/node_modules/**
 src/img/large/**
 src/img/medium/**
