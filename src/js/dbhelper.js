@@ -52,7 +52,7 @@ class DBHelper {
 
   static getCachedRestaurants() {
     return DBHelper.openIDB().then(db => {
-      if (!db) return;
+      if (!db) return console.log("Something went wrong with cachedRestaurannts");
 
       const store = db.transaction('restaurantDb').objectStore('restaurantDb');
       return store.getAll();
