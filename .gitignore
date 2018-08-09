@@ -68,7 +68,6 @@ config/local.js
 
 node_modules
 bower_components
-.vscode
 
 
 
@@ -117,3 +116,15 @@ npm-debug.log
 nbproject
 .idea
 .node_history
+vscode
+# src/js/main.js
+# src/js/restaurant_info.js
+# src/js/idb.js
+# src/js/dbhelper.js
+# src/css/styles.css
+# src/restaurant.html
+src/node_modules/**
+
+src/img/large/**
+src/img/medium/**
+src/img/small/**

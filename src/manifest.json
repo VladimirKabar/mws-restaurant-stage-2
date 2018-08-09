@@ -4,12 +4,12 @@
     "scope": "/",
     "icons": [
         {
-            "src": "restaurant-icon.png",
+            "src": "img/restaurant-icon.png",
             "type": "img/png",
             "sizes": "192x192"
         },
         {
-            "src": "restaurant-icon.png",
+            "src": "img/restaurant-icon.png",
             "type": "img/png",
             "sizes": "512x512"
         }

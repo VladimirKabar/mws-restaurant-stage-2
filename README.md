@@ -34,19 +34,22 @@ Let's start with running commands in your terminal, known as command line interf
 ###### Install project dependancies
 ```Install project dependancies
 # npm i
-```
-###### Install Sails.js globally
+
 ```Install sails global
 # npm i sails -g
-```
-###### Start the server
-```Start server
+
+```Start server for db
 # node server
+
+# cd scr
+
+```Run grunt in scr folder to create responsive images!
+# grunt
 ```
-### You should now have access to your API server environment
-debug: Environment : development
-debug: Port        : 1337
+IF YOU WANT TO CHANGE ANY THINK REMEMBER THAT I'M USING minified FILES !!! 
 
+Run grunt in scr folder to create responsive images!
 
-If you find a bug in the source code or a mistake in the documentation, you can help us by
-submitting an issue to our [Waffle Dashboard](https://waffle.io/udacity/mwnd-issues). Even better you can submit a Pull Request with a fix :)
+Download from http://fenixwebserver.com/ Fenix Web Server
+
+Change your google API key - index.html and restaurant.html
