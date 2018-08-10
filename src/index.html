@@ -40,25 +40,24 @@
       <ul id="restaurants-list"></ul>
     </section>
   </main>
+  <script type="application/javascript" charset="utf-8" src="js/lazyload.min.js"></script>
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', function () {
-        navigator.serviceWorker.register('sw.min.js').then(function (reg) {
+        navigator.serviceWorker.register('/sw.min.js').then(function (reg) {
           console.log('Serviceworker registration success!, scope : ', reg.scope);
         }, function (err) {
           console.log('Serviceworker registration fail!, error : ', err);
         });
       });
     }
-  </script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-lazyload/8.14.0/lazyload.min.js"></script>
-  <script>
     (function () {
       new LazyLoad({
         elements_selector: ".lazy"
       });
     }());
   </script>
+  <script type="application/javascript" charset="utf-8" src="js/lazyload.min.js"></script>
   <script type="application/javascript" charset="utf-8" src="js/idb.min.js"></script>
   <script type="application/javascript" charset="utf-8" src="js/dbhelper.min.js"></script>
   <script type="application/javascript" charset="utf-8" src="js/main.min.js"></script>
