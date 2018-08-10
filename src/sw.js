@@ -5,6 +5,7 @@
      '/',
       './manifest.json',
        './index.html',
+       './404.html',
     './offline.html',
      './restaurant.min.html',
      './css/styles.min.css',
@@ -97,6 +98,9 @@
         event.respondWith(
           caches.match(event.request, { ignoreSearch: true }).then(function(resp) {
             return resp || fetch(event.request).then(function(response) {
+                if (response.status === 404) {
+                    return caches.match('404.html');
+                  }          
               let responseClone = response.clone();
               caches.open('restaurant-cache-v2').then(function(cache) {
                 cache.put(event.request, responseClone);
